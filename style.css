@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.products{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 100%;
+}
+
+.products :nth-child(1){
+    height: 200px;
+    text-align: center;
+}
+
+.products :nth-child(2){
+    height: 220px;
+    text-align: center;
+
+}
+.products :nth-child(3){
+    height: 200px;
+    text-align: center;
+    margin-right: 0;
+
+}
+.products :nth-child(1) h2 {
+    font-size: 15px;
+    margin: 0;
+    height: 0;
+    margin-top: 5px;
+}
+.products :nth-child(2) h2 {
+    font-size: 15px;
+    margin: 0;
+    height: 0;
+    margin-top: 5px;
+
+}
+.products :nth-child(3) h2 {
+    font-size: 15px;
+    margin: 0;
+    height: 0;
+    margin-top: 5px;
+
+}
+
+.products :nth-child(1) a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.products :nth-child(1) h3 {
+    height: 0;
+    margin: 0;
+    margin-top: 20px;
+    color:darkred;
+    font-size: 20px;
+}
+
+.products :nth-child(2) a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border: none;
+}
+    
+.products :nth-child(2) h3 {
+    height: 0;
+    margin: 0;
+    margin-top: 20px;
+    color:darkred;
+    font-size: 20px;
+
+}
+
+.products :nth-child(3) h3 {
+    height: 0;
+    margin: 0;
+    margin-top: 20px;
+    color:darkred;
+    font-size: 20px;
+
+}
+
+.products :nth-child(3) a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.texto{
+    text-align: center;
+    width: center;
+}
+
+.texto h2 {
+    margin: 0;
+    font-size: 18px;
+    color: darkred;
+}
+
+.texto h1{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: darkred;
+}
